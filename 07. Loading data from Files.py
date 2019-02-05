@@ -10,7 +10,7 @@ y = []
 
 
 
-with open("7. Loading data from Files.txt", 'r') as csvfile:
+with open("07. Loading data from Files.txt", 'r') as csvfile:
     plots = csv.reader(csvfile, delimiter=",")
     for row in plots:
         x.append(int(row[0]))
@@ -32,7 +32,7 @@ plt.show()
 
                     #Part 2
                     
-x, y = np.loadtxt("7. Loading data from Files.txt",
+x, y = np.loadtxt("07. Loading data from Files.txt",
                   delimiter=',', #What seperates the data in the .txt
                   unpack=True) #It unpacks it
 
