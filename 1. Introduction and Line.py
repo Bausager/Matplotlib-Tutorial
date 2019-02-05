@@ -1,6 +1,5 @@
-"""
-Created on Tue Feb  5 17:11:32 2019
+import matplotlib.pyplot as plt
 
-@author: Bausager
-"""
+plt.plot([1,2,3],[5,7,4])
 
+plt.show()
