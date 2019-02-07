@@ -1,3 +1,4 @@
+#Doen't work!
 import matplotlib.pyplot as plt
 import numpy as np
 import urllib
@@ -73,7 +74,7 @@ def graph_data(stock):
     #for label in ax1.xaxis.get_ticklabels():
         #label.set_rotation(45)
         
-        
+    ax1.annitate(str(closep-1),(date[-1], closep[-1]),xytext = (date[-1]+0.5, closep[-1]))
 
     plt.xlabel('Date')
     plt.ylabel('Price')

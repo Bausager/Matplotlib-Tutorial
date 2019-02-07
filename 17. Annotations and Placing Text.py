@@ -1,3 +1,4 @@
+#Doen't work!
 import matplotlib.pyplot as plt
 import numpy as np
 import urllib
@@ -74,7 +75,7 @@ def graph_data(stock):
         #label.set_rotation(45)
         
         
-
+    ax1.text(date[5], closep[4], 'trying')
     plt.xlabel('Date')
     plt.ylabel('Price')
     plt.title('STOCK')
